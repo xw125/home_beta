@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="" class="nav-title">:: Norart</a>
+        </div>
+    </nav>
+    <div class="hero hero-index">
+        <div class="banner">
+            <div class="video-frame">
+                <video loop autoplay muted preload playsinline>
+                <source src="index.mp4" type="video/mp4"> Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="filter"></div>
+        </div>
+        <div class="container">
+            <div class="hero-index-header">
+                <h1>創造力，<br>無可限量。</h1>
+                <h5>所有創作，即是所有的一切。存在於我們的生活中，直得深探。</h5>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="hero-welcome">
+                <div class="img"></div>
+                <div class="body">
+                    <h2>年度最佳精選作品</h2>
+                    <p>看看我們本月的最新力作！</p>
+                    <a href="#" class="btn-ra light">立即查看</a>
+                </div>
+            </div>
+        </div>
+        <div class="container cay">
+            <h2>精選分類</h2>
+            <a href="" class="cay-link">所有分類  〉</a>
+            <div class="cay-g">
+                <a href="#" class="cay-card">
+                    <img src="20190812003402.jpg" alt="">
+                    <div class="cay-card-body">
+                        <h2>CG藝術</h2>
+                        <p>3D的時尚，從不缺失。</p>
+                        <div class="btn-ra dark">探索</div>
+                    </div>
+                </a>
+                <a href="#" class="cay-card">
+                    <img src="2010_2700-A4.jpg" alt="">
+                    <div class="cay-card-body">
+                        <div class="cay-card-tag">特色聚焦</div>
+                        <h2>數位藝術</h2>
+                        <p>從古至今，到位的經典。</p>
+                        <div class="btn-ra dark">探索</div>
+                    </div>
+                </a>
+            </div>
+            <a class="btn-ra cay-all-btn dark" href="#">瀏覽所有</a>
+        </div>
+        <div class="container newsroom">
+            <h2 class="newsroom-title">新聞室</h2>
+            <div class="newsroom-body">
+                <a href="javascript:test();" class="newsroom-post">
+                    <div class="newsroom-post-img"><img src="newsroom.jpg" alt=""></div>
+                    <div class="newsroom-post-content">
+                        <div>2020年12月09日</div>
+                        <h3>如何畫出引起興趣的繪畫。</h3>
+                        <div class="newsroom-post-desc">《魔獸世界》，簡稱魔獸，是由暴雪娛樂製作的一款大型多人在線角色扮演遊戲。魔獸世界的劇情開端點是在《魔獸爭霸3：寒冰霸權》結束之後的故事。 暴雪於2001年9月2日宣布製作魔獸世界。魔獸世界於2004年年中在北美公開測試，同年11月23日。</div>
+                    </div>
+
+                </a>
+                <a href="" class="newsroom-post">
+                    <div class="newsroom-post-img"><img src="newsroom.jpg" alt=""></div>
+                    <div class="newsroom-post-content">
+                        <div>2020年12月09日</div>
+                        <h3>如利用Quxiel素材庫混搭材質也不奇怪。</h3>
+                        <div class="newsroom-post-desc">到目前為止，通過插件導出的3D植物使用Unreal Engine的“自動計算LOD距離”功能進行LOD切換，這會產生可見的LOD彈出.....。</div>
+                    </div>
+
+                </a>
+            </div>
+            <div class="newsroom-footer index">
+                <a href="" class="btn-ra dark">檢視所有</a>
+            </div>
+        </div>
+    </div>
+
+    <a href="javascript:close()" class="view-frame">
+        <div class="view-frame-content">
+            <img src="下載.jpg" alt="">
+            <div class="view-frame-content-texts">適《魔獸世界》，簡稱魔獸，是由暴雪娛樂製作的一款大型多人在線角色扮演遊戲。魔獸世界的劇情開端點是在《魔獸爭霸3：寒冰霸權》結束之後的故事。 暴雪於2001年9月2日宣布製作魔獸世界。魔獸世界於2004年年中在北美公開測試，同年11月23日。《魔獸世界》，簡稱魔獸，是由暴雪娛樂製作的一款大型多人在線角色扮演遊戲。魔獸世界的劇情開端點是在《魔獸爭霸3：寒冰霸權》結束之後的故事。 暴雪於2001年9月2日宣布製作魔獸世界。魔獸世界於2004年年中在北美公開測試，同年11月23日。《魔獸世界》，簡稱魔獸，是由暴雪娛樂製作的一款大型多人在線角色扮演遊戲。魔獸世界的劇情開端點是在《魔獸爭霸3：寒冰霸權》結束之後的故事。
+                暴雪於2001年9月2日宣布製作魔獸世界。魔獸世界於2004年年中在北美公開測試，同年11月23日。
+            </div>
+        </div>
+    </a>
+
+    <script>
+        function test(e) {
+            document.querySelector('body').classList.add('view-frame-body');
+            document.querySelector('.view-frame').classList.add('open');
+
+            e = "程序完成";
+            // return e;
+        }
+
+        function close() {
+
+            document.querySelector('.view-frame').classList.remove('open');
+            document.querySelector('body').classList.remove('view-frame-body');
+
+        }
+    </script>
+
+</body>
+
+</html>
